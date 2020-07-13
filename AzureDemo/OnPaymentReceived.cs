@@ -29,7 +29,7 @@ namespace AzureDemo
                 : new BadRequestObjectResult("Bad Request");
         }
     }
-
+   
     public class Order
     {
         public int OrderId { get; set; }
